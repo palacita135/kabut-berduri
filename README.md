@@ -1,4 +1,4 @@
-# kabut-berduri
+# KABUT BERDURI
 # script Python untuk OSINT yang fokus pada pencarian data di Indonesia
 
        1.Web Scraping untuk mencari data dari sumber terbuka, seperti website Indonesia (misalnya, data alamat atau kontak).
@@ -7,9 +7,9 @@
 
 
 # Penjelasan:
-# Scraping Website: Mengambil data link dari halaman web Indonesia menggunakan requests dan BeautifulSoup. Semua link yang mengandung id di dalam URL akan dipilih, yang umumnya mencirikan situs Indonesia.
-# Shodan: Menggunakan API Shodan untuk mencari perangkat yang terhubung ke internet di Indonesia berdasarkan negara (country:ID). Kamu perlu mengganti YOUR_SHODAN_API_KEY dengan API key milikmu.
-# Pandas: Hasil dari web scraping dan pencarian perangkat Shodan digabungkan menjadi satu set data dan disimpan dalam file CSV menggunakan pandas.
+# 1. Scraping Website: Mengambil data link dari halaman web Indonesia menggunakan requests dan BeautifulSoup. Semua link yang mengandung id di dalam URL akan dipilih, yang umumnya mencirikan situs Indonesia.
+# 2. Shodan: Menggunakan API Shodan untuk mencari perangkat yang terhubung ke internet di Indonesia berdasarkan negara (country:ID). Kamu perlu mengganti YOUR_SHODAN_API_KEY dengan API key milikmu.
+# 3. Pandas: Hasil dari web scraping dan pencarian perangkat Shodan digabungkan menjadi satu set data dan disimpan dalam file CSV menggunakan pandas.
 
 # Langkah-langkah:
 # Instalasi Dependencies: Pastikan pustaka yang diperlukan sudah terinstal:
